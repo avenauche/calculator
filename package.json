@@ -4,7 +4,9 @@
   "description": "A basic calculator",
   "type": "module",
   "scripts": {
-    "build": "npx unbuild"
+    "build": "npx unbuild",
+    "dryrun" : "npm publish --dry-run",
+    "publish": "npm publish --access=public"
   },
   "keywords": [
     "calculator",
@@ -28,5 +30,6 @@
       "require": "./dist/index.cjs",
       "import": "./dist/index.mjs"
     }
-  }
+  },
+  "main": "index.js"
 }

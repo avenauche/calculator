@@ -1,11 +1,11 @@
 {
   "name": "@avenauche/calculator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A basic calculator",
   "type": "module",
   "scripts": {
     "build": "npx unbuild",
-    "dryrun" : "npm publish --dry-run",
+    "dryrun": "npm publish --dry-run",
     "publish": "npm publish --access=public"
   },
   "keywords": [
